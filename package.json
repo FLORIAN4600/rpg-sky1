@@ -1,7 +1,25 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "autocommand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently -k -n \"Typescript,Node\" -p \"[{name}]\" -c \"blue,green\" \"tsc --watch\"",
+    "start": "nodemon dist/bot.js"
+  },
+  "author": "FLORIAN4600",
+  "license": "MIT",
+  "dependencies": {
+    "2captcha": "^3.0.7",
+    "2captcha-ts": "^2.0.1",
+    "discord.js-selfbot-v13": "^2.14.9",
+    "node-capmonster": "^0.4.2",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
   }
 }
