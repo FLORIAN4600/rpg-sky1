@@ -1,0 +1,44 @@
+[
+  {
+    "channel_id": "1132320382309908522",
+    "commands": [
+      {
+        "cooldown": 128,
+        "type": "/",
+        "command": "rpg-farm couper",
+        "bot_id": "450323683840491530"
+      },
+      {
+        "cooldown": 138,
+        "type": "/",
+        "command": [
+          "rpg-farm cueillir",
+          "rpg-farm pecher"
+        ],
+        "bot_id": "450323683840491530"
+      },
+      {
+        "cooldown": 198,
+        "type": "/",
+        "command": "rpg-farm miner",
+        "bot_id": "450323683840491530"
+      },
+      {
+        "cooldown": 178,
+        "type": "/",
+        "command": "rpg-farm chasser",
+        "bot_id": "450323683840491530"
+      },
+      {
+        "cooldown": 1900,
+        "type": "/",
+        "command": "rpg manger",
+        "args": [
+          "Orange",
+          8
+        ],
+        "bot_id": "450323683840491530"
+      }
+    ]
+  }
+]
