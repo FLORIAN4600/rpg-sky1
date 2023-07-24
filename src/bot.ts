@@ -6,7 +6,7 @@ console.log("Loading...");
 
 const client = new Client();
 const commands = JSON.parse(readFileSync("resources/commands.json", "utf-8"));
-const infos = JSON.parse('{ "email": "' + process.env.email + '", "password": "' + process.env.password + '"}');
+const infos = JSON.parse(readFileSync("ressources/infos.json", "utf-8"));
 var isDead: boolean = true;
 
 client.on("debug", console.log);
