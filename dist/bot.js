@@ -14,7 +14,7 @@ const fs_1 = require("fs");
 console.log("Loading...");
 const client = new discord_js_selfbot_v13_1.Client();
 const commands = JSON.parse((0, fs_1.readFileSync)("resources/commands.json", "utf-8"));
-const infos = JSON.parse((0, fs_1.readFileSync)("ressources/infos.json", "utf-8"));
+const infos = JSON.parse((0, fs_1.readFileSync)("resources/infos.json", "utf-8"));
 var isDead = true;
 client.on("debug", console.log);
 client.normalLogin(infos["email"], infos["password"], "");
